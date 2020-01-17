@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Secular+One&display=swap');
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(255, 255, 255); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .sidetab{
+    cursor: pointer; 
+    width: 3%; 
+    float: left;
+    margin-left: 5px;
+  }
+
+  .meetingMain{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .meetingBox{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 65px;
+    border: rgba(0, 0, 0, 0.25) solid 1px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .meetingBoxContent{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    border: solid rgba(0, 0, 0, 0.25) 1px;
+  }
+
+  .meetingBox:hover{
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+
+  .meetingBox:hover .meetingBoxContent{
+    display: block;
+
+  }
+
+  .row {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .cardShort{
+    width: 35%;
+    height: 250px;
+    border: black 1px solid;
+    margin-left: 5%;
+    margin-top: 125px;
+    border-radius: 0px;
+    background-color:rgb(96,22,18);
+    background-image: url(corkboard.jpg);
+    display: inline-block;
+    
+  }
+
+  .cardTall{
+    width: 35%;
+    height: 500px;
+    border: black 1px solid;
+    margin-left: 5%;
+    margin-top: 125px;
+    border-radius: 0px;
+    background-color:rgb(96,22,18);
+    background-image: url(corkboard.jpg);
+    display: inline-block;
+  }
+
+  .meetingBox:hover{
+    cursor: pointer;
+
+  }
+  
+  .gopeHeight{
+    height: 150vh;
+  }
