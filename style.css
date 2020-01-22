@@ -121,6 +121,7 @@
     background-color:rgb(96,22,18);
     background-image: url(corkboard.jpg);
     display: inline-block;
+    vertical-align: middle;
   }
 
   .meetingBox:hover{
